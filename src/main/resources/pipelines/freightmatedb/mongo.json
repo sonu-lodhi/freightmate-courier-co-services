@@ -1,0 +1,12 @@
+{
+  "_id": {
+    "$oid": "63243c956449b92ae3237a6f"
+  },
+  "carrierName": "FreightMateCourierCo",
+  "accountNumber": "123ABC",
+  "digits": 10,
+  "lastUsedIndex": 19604,
+  "rangeStart": 19000,
+  "rangeEnd": 20000,
+  "_class": "com.example.freightmate.models.ConsignmentNoteNumberGenerator"
+}
