@@ -15,8 +15,8 @@ public class FreightmateCourierCoServicesApplication {
 		ConsignmentNoteNumberGenerator consignmentnote = new ConsignmentNoteNumberGenerator("FreightMateCourierCo", "123ABC", 10, 19604, 19000, 20000);
         System.out.println(consignmentnote);
 
-        FreightMateCourierCoService freightMateCourierCoService = new FreightMateCourierCoService(); // ConnoteService object creation
-        String uniqueFreightMateCourierCoIds = freightMateCourierCoService.createConnoteIds(consignmentnote); // call generateConnoteNumber() method  for generate Connote Number of given previous Connote Number
+        FreightMateCourierCoService freightMateCourierCoService = new FreightMateCourierCoService();
+        String uniqueFreightMateCourierCoIds = freightMateCourierCoService.createConnoteIds(consignmentnote);
         System.out.println(uniqueFreightMateCourierCoIds);
 	}
 	
