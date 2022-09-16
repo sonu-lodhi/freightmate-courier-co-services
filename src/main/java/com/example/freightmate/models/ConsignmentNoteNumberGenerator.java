@@ -82,22 +82,5 @@ public class  ConsignmentNoteNumberGenerator{
 				", rangeEnd:" + rangeEnd + 
 				"}";
 	}
-	
-	
-//	 @Override
-//	    public String toString() {
-//	        return "ConnoteNumberDto" +
-//	                " {" +
-//	                "carrierName:'" + carrierName + '\'' +
-//	                ", accountNumber:'" + accountNumber + '\'' +
-//	                ", digits:" + digits +
-//	                ", lastUsedIndex:" + lastUsedIndex +
-//	                ", rangeStart:" + rangeStart +
-//	                ", rangeEnd:" + rangeEnd +
-//	                '}';
-//	    }
-    
-    
-    
 
 }
